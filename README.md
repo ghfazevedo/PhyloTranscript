@@ -9,8 +9,8 @@ header-includes:
 ---
 
 # PhyloTrascript Workflow
-A workflow to generate phylogenies and SNP matrices for phylogenetics and population genomics from RNAseq data.
-
+A workflow to generate phylogenies and SNP matrices for phylogenetics and population genomics from RNAseq data.  
+[This is a work in progress]
 
 This repository includes the scripts and custom programs used in the manuscript [**Azevedo et al. Name TBD**](https://).  
 The workflow presented here can be used to re-run the analyses or to run a new analyses on different data by replacing the input files in this repository for your own files. To re-run the analyses download the raw reads from SRA using the list provided in the paper, replace the files in the [raw_reads](/raw_reads) folder and creates a map file . 
