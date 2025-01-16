@@ -2,10 +2,10 @@
 A workflow to generate phylogenies and SNP matrices for phylogenetics and population genomics from RNAseq data.  
 [This is a work in progress]
 
-This repository includes the scripts and custom programs used in the manuscript [**Azevedo et al. Name TBD**](https://).  
+This repository includes the scripts and custom programs used in the manuscript [**Azevedo et al. Habronattus phylotranscriptome (in prep)**](https://).  
 The workflow presented here can be used to re-run the analyses or to run a new analyses on different data by replacing the input files in this repository for your own files. To re-run the analyses download the raw reads from SRA using the list provided in the paper, replace the files in the [raw_reads](/raw_reads) folder and creates a map file . 
   
-If you use any of the scripts or cutom programs please cite [**Azevedo et al. Name TBD**](https://) as well as the third party programs used (see below and in the help function of each program).
+If you use any of the scripts or cutom programs please cite [**Azevedo et al. Habronattus phylotranscriptome (in prep)**](https://) as well as the third party programs used (see below and in the help function of each program).
   
 This pipeline were tested in a machine running the OS: Linux-3.10.0-957.10.1.el7.x86_64-x86_64-with-centos-7.6.1810-Core
 and Ubuntu 18.04.4 LTS
