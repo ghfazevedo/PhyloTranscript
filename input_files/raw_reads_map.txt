@@ -1,0 +1,4 @@
+SRR1656783_1.fastq.gz,SRR1656783_1.fastq.gz,Genus_species_CODE01
+SRR6381066_1.fastq.gz,SRR6381066_1.fastq.gz,Genus_species_CODE02
+SRR6381077_1.fastq.gz,SRR6381077_1.fastq.gz,Genus_species_CODE03
+SRR6381083_1.fastq.gz,SRR6381083_1.fastq.gz,Genus_species_CODE04
