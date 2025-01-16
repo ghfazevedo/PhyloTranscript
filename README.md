@@ -1,13 +1,3 @@
----
-title: "Phylotranscriptome Workflow"
-author: "Guilherme Azevedo"
-date: "January 2025"
-output: pdf_document
-header-includes:
- - \usepackage{fvextra}
- - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}} 
----
-
 # PhyloTrascript Workflow
 A workflow to generate phylogenies and SNP matrices for phylogenetics and population genomics from RNAseq data.  
 [This is a work in progress]
@@ -119,7 +109,7 @@ conda create --name samtoolsenv -c bioconda samtools=1.15.1
 
 ____________________________________________________________________
 
-# The Workflow
+# The Phylotranscriptome Workflow
 
 ## Creating a folder for the outputs
 
@@ -904,7 +894,7 @@ Copying the alignments to the final matrices folder
 mv mitogenes_fastas_by_gene_mafft_gblocks ../final_matrices/Habro_mitogenes_mafft_gblocks
 ``` 
 
-# Remove bam files to release disc space
+Remove bam files to release disc space
 ```bash
 rm -rf *_bam
 rm -r clean_fastq_*
