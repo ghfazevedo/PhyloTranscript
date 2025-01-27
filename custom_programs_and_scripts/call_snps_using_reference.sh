@@ -11,9 +11,10 @@ call_snps_using_reference '$version'
 Created by Guilherme Azevedo 2021 
 ###################################
 
-This program runs phyluce workflow for phasing UCE data.
+This program runs phyluce workflow for mapping reads against a reference sequence and then runs a customized workflow for calling snps.
 You only need to specify the folder with clean reads and the folder with the consensus_reference.
 The script will automatically generate the configuration files needed.
+The snp calling workflow is available from a fork of original phyluce at https://github.com/ghfazevedo/phyluce.git
 
 Usage:
 
@@ -26,9 +27,10 @@ phase_trimmed_loci.sh -R CleanReadsFolder -O OutputPrefix -C ConsensusReference 
       -n  n_cores             Number of cores. Default: 16
       -h  help
 
-See phyluce workflow (https://phyluce.readthedocs.io/en/latest/daily-use/daily-use-4-workflows.html#) web page for more information
-
+See phyluce workflow (https://phyluce.readthedocs.io/en/latest/daily-use/daily-use-4-workflows.html#) web page for more information and https://github.com/ghfazevedo/phyluce.git.
 All default parameters are the same as used in phyluce v1.7.1.
+
+If you use this program, cite phyluce and refer to the customized workflow fork.
 
 '
 exit
