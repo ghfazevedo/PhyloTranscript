@@ -70,8 +70,9 @@ It migth be easier if you have all programs installed in one single conda enviro
 (The version 1.7.1 of phyluce is not available for installing with conda. See intallation instruction the [phyluce website](https://phyluce.readthedocs.io/en/latest/index.html).)
 
 ```bash
-conda create --name transcriptome
+conda create --name transcriptome python=3.9
 conda activate transcriptome
+conda install parallel=20220722 -c conda-forge
 conda install -c bioconda trimmomatic=0.39
 conda install -c bioconda fastqc=0.11.9
 conda install -c bioconda spades=3.15.2

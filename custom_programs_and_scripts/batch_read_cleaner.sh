@@ -167,7 +167,7 @@ for line in $filelist
 	trimmomatic PE -threads $nthreads $RawReads/$r1 $RawReads/$r2 $out"-READ1.fastq.gz" $out"-READ1-single.fastq.gz" $out"-READ2.fastq.gz" $out"-READ2-single.fastq.gz" ILLUMINACLIP:$adaptersfasta:2:30:10:2:keepBothReads LEADING:5 TRAILING:15 SLIDINGWINDOW:4:15 MINLEN:$min_len
 	cat $out"-READ1-single.fastq.gz" $out"-READ2-single.fastq.gz" > $out"-READ-singleton.fastq.gz"
 	rm $out"-READ1-single.fastq.gz" $out"-READ2-single.fastq.gz"
-	mkdir $clean_fastq_dir/$out/split-adapter-quality-trimmed
+	mkdir -p $clean_fastq_dir/$out/split-adapter-quality-trimmed
 	mv *READ*.fastq.gz $clean_fastq_dir/$out/split-adapter-quality-trimmed/
 done
 
